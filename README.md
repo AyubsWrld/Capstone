@@ -11,8 +11,6 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technical Details](#technical-details)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Project Overview
