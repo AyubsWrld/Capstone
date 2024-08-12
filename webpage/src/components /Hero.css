@@ -13,7 +13,7 @@
   margin-top : 128px ; 
   height  : 100% ; 
   width  : 100% ; 
-  gap : 300px ; 
+  gap : 250px ; 
   display : flex ; 
   align-items : center ; 
   justify-content : center; 
@@ -29,7 +29,7 @@
 }
 
 .hero-header {
-  font-size : 200px ; 
+  font-size : 225px ; 
   color : var(--primary) ; 
   font-family : dm-sans; 
 }
