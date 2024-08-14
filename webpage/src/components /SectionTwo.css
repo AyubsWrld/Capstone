@@ -1,0 +1,70 @@
+.section-two-container{
+  padding-top : 128px ; 
+  height : 100% ;
+  width : 100% ; 
+  font-family : dm-sans ; 
+  padding-bottom : 128px ; 
+}
+
+.section-two-text{
+  display : flex  ; 
+  flex-direction : column ; 
+  justify-content : center ; 
+  align-items : center ; 
+  gap : 16px; 
+  color  : var(--primary) ; 
+  padding-bottom : 128px ; 
+}
+
+.section-two-text .h1{
+  text-align : center ; 
+  font-size : 48px ; 
+
+
+}
+
+.section-two-text .h2{
+  text-align : center ; 
+  font-size : 18px ; 
+}
+
+
+.section-two-row{
+  padding : 0px 64px ; 
+  display : flex  ; 
+  flex-direction : row ; 
+  justify-content : space-between ; 
+  align-items : center ; 
+}
+
+.section-two-row .card {
+  display : flex ; 
+  flex-direction : column ; 
+  gap : 8px ; 
+}
+.section-two-row  .card .image {
+  border-radius : 20px ; 
+  width : 325px ; 
+  height : 375px ; 
+  background-color  : var(--secondary) ; 
+}
+
+.section-two-row .card .description {
+  display : flex ; 
+  align-items : center; 
+  justify-content : center; 
+  flex-direction : column ; 
+  gap : 8px ; 
+  color : var(--primary) ;
+
+} 
+
+.section-two-row .card .description .text {
+  font-weight : 600 ;
+  font-size : 24px ; 
+} 
+
+.section-two-row .card .description .subtext {
+  font-weight : 400 ; 
+  font-size : 14px ; 
+} 

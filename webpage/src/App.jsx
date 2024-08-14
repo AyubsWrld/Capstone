@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg' ;
 import './App.css' ; 
 import Hero from './components /Hero.jsx' ; 
 import Header from './components /Header.jsx' ; 
+import SectionTwo from './components /SectionTwo.jsx' ; 
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className = 'Overarching'>
         <Header />
         <Hero />
+        <SectionTwo />
       </div>
     </>
   )
