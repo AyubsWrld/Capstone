@@ -5,6 +5,10 @@ import './App.css' ;
 import Hero from './components /Hero.jsx' ; 
 import Header from './components /Header.jsx' ; 
 import SectionTwo from './components /SectionTwo.jsx' ; 
+import SectionThree from './components /SectionThree.jsx' ; 
+import Footer from './components /Footer.jsx' ; 
+
+
 
 function App() {
 
@@ -15,6 +19,8 @@ function App() {
         <Header />
         <Hero />
         <SectionTwo />
+        <SectionThree />
+        <Footer />
       </div>
     </>
   )
