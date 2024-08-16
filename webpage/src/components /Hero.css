@@ -31,7 +31,10 @@
 
 .hero-header {
   font-size : 225px ; 
-  color : var(--primary) ; 
+  /* background: linear-gradient(to left , var(--black) 0 15% , var(--red) , var(--purple)  , var(--blue) ); */
+  background: var(--gradient-two)  ; 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-family : dm-sans; 
 }
 

@@ -1,6 +1,12 @@
 
 :root {
-  --primary: #486284;
+  --primary:  #486284 ;
+  --red    :  #FB2184 ;
+  --black  :  #2F2E3C;
+  --blue   :  #77D6E6;
+  --purple :  #922E8E;
+  --gradient :  linear-gradient(to right ,var(--red) , var(--purple)  , var(--blue) );
+  --gradient-two :  linear-gradient(to left ,var(--blue), var(--purple) , var(--black) );
 }
 
 .header-parent {
@@ -16,6 +22,7 @@
 }
 
 .header {
+  padding : 0px 10px ; 
   font-family : dm-sans ; 
   color: black;
   width: 325px;
@@ -23,11 +30,34 @@
   height: 72px; 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between ;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-color: var(--primary);
-  background-color: white ; 
+  background-color: rgba(255 , 255 ,255 , 0.5); 
+  backdrop-filter : blur(10px) ; 
+  /* box-shadow : 4px 4px 20px rgba(0,0,0,0.2) ;   */
+
+}
+
+.header .logo {
+  height :42px ; 
+  width :42px ; 
+  background-color : var(--primary); 
+  border-radius : 42px ; 
+}
+
+.header .button{
+  width : 96px ;
+  height : 42px ; 
+  font-family : dm-sans ; 
+  border-radius : 300px; 
+  background-color  : var(--primary); 
+  color : white ; 
+  border-style : none ; 
+  /* border-color : var(--primary) ;  */
+  font-size : 14px ; 
+  font-weight : 800 ; 
 }
 
 .content {

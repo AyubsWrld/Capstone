@@ -6,7 +6,30 @@ export default function Footer(){
     
     <>
       <div className='footer-container'>
-        Hello world 
+
+        <div className='column-one'>
+
+          <div className='logo'>
+            Graphite
+          </div>
+  
+          <p className='subtext'>
+            Our vision is to provide convenience<br/>and help increase your sales business.
+          </p>
+
+        </div>
+
+
+        <div className='column-two'>
+
+          <p className='column-heading'>
+            {/* About  */}
+          </p>
+
+        </div>
+
+
+
       </div>
     </>
   )

@@ -9,7 +9,7 @@ export default function SectionTwo(){
         <div className='section-two-text'>
 
           <p className='h1'>
-            Benevolence over bits 
+            Unbound by Bits
           </p>
 
           <p className='h2'>

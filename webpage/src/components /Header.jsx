@@ -6,7 +6,16 @@ export default function Header() {
     <>
       <div className="header-parent">
         <div className="header" id="myHeader">
-          <h2>Header</h2>
+
+          <div className ='logo'>
+
+          </div>
+
+          <button className='button'>
+            Demo
+          </button>
+          
+
         </div>
       </div>
     </>

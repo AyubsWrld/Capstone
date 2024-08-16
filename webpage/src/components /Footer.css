@@ -1,4 +1,44 @@
-.footer-container{
-  height : 480px ; 
-  background-color : #D3DCE7 ; 
+.footer-container {
+  height: 420px; 
+  background-color: #D3DCE7; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between; 
+  padding: 96px 64px; 
+  font-family : dm-sans ; 
+}
+
+.footer-container .column-one {
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px ; 
+}
+
+
+.footer-container .column-one .logo {
+
+  font-size : 32px ; 
+  font-weight : 400 ; 
+
+}
+
+
+.footer-container .column-one .subtext {
+
+  font-size : 16px ; 
+  font-weight : 100 ; 
+  opacity : 0.8;
+}
+
+
+.footer-container .column-two {
+  /* Add styles here */
+}
+
+.footer-container .column-three {
+  /* Add styles here */
+}
+
+.footer-container .column-four {
+  /* Add styles here */
 }
