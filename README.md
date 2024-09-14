@@ -66,16 +66,6 @@ Graphite aims to address the problem of limited storage on mobile devices by off
 - **ESP32 Development Board**: For providing the hardware foundation for the project.
 
 ## Document 
-Here’s a high-level planning document template you can follow for your ESP32 and React Native project. It will help you organize the various components and tasks involved.
-
----
-
-# Project: External Storage Module with ESP32 and React Native
-
-### **Project Overview:**
-The goal of this project is to develop a prototype of a system that allows a smartphone to extend its storage capabilities via an external Bluetooth-connected hard drive. Users can upload photos and other files to this external storage using an ESP32 microcontroller as the Bluetooth bridge between the phone and the hard drive.
-
----
 
 ## **1. Project Objectives:**
 
@@ -232,6 +222,4 @@ The goal of this project is to develop a prototype of a system that allows a sma
 - Successful upload of files from the mobile device to the external hard drive.
 - Intuitive and responsive user interface.
   
----
 
-This plan provides a solid foundation to start working on your ESP32 and React Native project. You can adjust the timeline and tasks as needed during development. Let me know if you'd like to dive deeper into any specific section!
