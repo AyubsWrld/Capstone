@@ -12,7 +12,7 @@
 - [Usage](#usage)
 - [Technical Details](#technical-details)
 - [Acknowledgements](#acknowledgements)
-- (Development Document)(#document)
+- [Development Document](#document)
 
 ## Project Overview
 
